@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_inorder - perform inorder traversal on a
- * 	binay tree
+ *	binay tree
  * @tree: a binary tree
  * @func: pointer to function to print tree
  */

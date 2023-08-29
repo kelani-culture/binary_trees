@@ -2,8 +2,8 @@
 
 /**
  * binary_tree_preorder - transverse a binary tree in preorder
- * @tree - pointer to tree
- * @func - pointer to function to print the tree
+ * @tree: pointer to tree
+ * @func: pointer to function to print the tree
  */
 
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
