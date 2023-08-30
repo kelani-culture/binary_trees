@@ -26,7 +26,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 /**
  * binary_tree_balance - check if a binary tree  is balance
  * @tree: pointer to head tree
- * return: if balance or not
+ * Return: if balance or not
  */
 
 int binary_tree_balance(const binary_tree_t *tree)
@@ -39,5 +39,5 @@ int binary_tree_balance(const binary_tree_t *tree)
 	left_bal = binary_tree_height(tree->left);
 	right_bal = binary_tree_height(tree->right);
 
-	return (int)(left_bal - right_bal);
+	return ((int)(left_bal - right_bal));
 }
