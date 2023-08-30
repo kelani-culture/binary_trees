@@ -21,5 +21,5 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 		return (grand_parent->right);
 
 	else
-		return grand_parent->left;
+		return (grand_parent->left);
 }
